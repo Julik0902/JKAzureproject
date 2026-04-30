@@ -1,0 +1,15 @@
+{
+	"name": "jkfactoryproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c40c5fa2-2a4b-499f-8e87-f7b8d3eba07f",
+		"tenantId": "2eefde83-5729-450c-ab5d-8e100897cb5a"
+	}
+}
