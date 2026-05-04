@@ -109,7 +109,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
-							"folder": "col",
+							"folder": "cdc",
 							"file": "cdc.json"
 						}
 					},
@@ -213,7 +213,7 @@
 									"type": "JsonSource",
 									"additionalColumns": [
 										{
-											"name": "col",
+											"name": "cdc",
 											"value": {
 												"value": "@activity('max_cdc').output.resultSets[0].rows[0].cdc",
 												"type": "Expression"
@@ -246,7 +246,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "bronze",
-										"folder": "col",
+										"folder": "cdc",
 										"file": "empty.json"
 									}
 								}
